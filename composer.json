@@ -1,0 +1,29 @@
+{
+    "name": "anshul/contact",
+    "description": "This app is used to store users messages and query",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anshul kumar",
+            "email": "anshulkumar2027@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Anshul\\Contact\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Anshul\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+
+}
